@@ -13,7 +13,7 @@ public class PlayerTest {
     @Test
     public void testMageMove() {
         Player mage = new Player("Mage");
-        assertEquals("Mage teleports test failure", mage.move());
+        assertEquals("Mage teleports", mage.move());
     }
 
     @Test
