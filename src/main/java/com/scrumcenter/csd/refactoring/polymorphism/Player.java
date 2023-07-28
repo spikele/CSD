@@ -7,9 +7,8 @@ public abstract class Player {
         return this.location;
     }
 
-    Integer changeLocation(Integer fields) {
+    void changeLocation(Integer fields) {
         this.location = this.location + fields;
-        return this.location;
     }
 
     abstract String move();
